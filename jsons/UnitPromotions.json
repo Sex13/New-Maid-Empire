@@ -1,0 +1,11 @@
+[
+	{
+		"name": "Maid",
+		"uniques": [
+			"Can move after attacking",
+			"Can build [Repair] improvements on tiles <in [Friendly Land] tiles>",
+			"[+20]% Strength <when fighting in [Friendly Land] tiles>", 
+			"All adjacent units heal [10] HP when healing"
+		]
+	}
+]

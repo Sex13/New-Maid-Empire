@@ -1,0 +1,98 @@
+[
+	{
+		"name": "Musketmaid",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Maid Empire",
+		"upgradesTo": "Rifleman",
+
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		
+		"obsoleteTech": "Rifling",
+		"uniques": [],
+		"promotions": ["Maid"],
+		"attackSound": "anime"
+	},
+	{
+		"name": "Riflemaid",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Maid Empire",
+		"upgradesTo": "Great War Infantry",
+
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": [],
+		"promotions": ["Maid"],
+		
+		"attackSound": "anime"
+	},
+	{
+		"name": "Great War Maid Infantry",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "Maid Empire",
+		"upgradesTo": "Infantry",
+
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		
+		"obsoleteTech": "Plastics",
+		"uniques": [],
+		"promotions": ["Maid"],
+		"attackSound": "anime"
+	},
+	{
+		"name": "Maid Infantry",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Maid Empire",
+		"upgradesTo": "Mechanized Infantry",
+
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": [],
+		"promotions": ["Maid"],
+		"attackSound": "anime"
+	},
+	{
+		"name": "2B",
+		"unitType": "Sword",
+		"replaces": "Marine",
+		"uniqueTo": "Maid Empire",
+		"movement": 3,
+		"strength": 70,
+		"cost": 400,
+		"requiredTech": "Pharmaceuticals",
+		"promotions": ["Maid", "Amphibious"],
+		"uniques": ["Defense bonus when embarked"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Spider Tank",
+		"unitType": "Armored",
+		"replaces": "Tank",
+		"uniqueTo": "Maid Empire",
+		"movement": 5,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Ignores terrain cost", "[60]% chance to intercept air attacks"],
+		"promotions": ["Maid"],
+		"attackSound": "tankshot"
+	}
+]
